@@ -13,5 +13,5 @@ This repository contains the following images
 To run the model for a specific configuration, you must have the `model.h` and `model.namelist` file within the same directory. The absolut path to this directory is called `ABS_CONF_PATH` here. This directory must be mounted as the volume `/run` to be available inside the container.
 
 ```bash
-docker run -v ABS_CONF_PATH:/run martinclaus/swm_develop
+docker run -v ABS_CONF_PATH:/run martinclaus/swm
 ```
