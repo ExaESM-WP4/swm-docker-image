@@ -4,6 +4,7 @@ USER root
 
 RUN apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
+  make \
   gfortran \
   libnetcdff-dev \
   libudunits2-0 \
